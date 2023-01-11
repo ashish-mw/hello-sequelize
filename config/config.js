@@ -1,4 +1,3 @@
-console.log("db name -> ", process.env.DB_DBNAME);
 const config = {
   username: process.env.DB_USERNAME || "postgres",
   password: process.env.DB_PASSWORD || "postgres",
